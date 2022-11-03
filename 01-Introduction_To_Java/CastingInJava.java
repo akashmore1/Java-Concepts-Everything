@@ -12,6 +12,6 @@ public class CastingInJava {
         int halfInt = num / 2;
         System.out.println(halfInt);
 
-        float halfDoubleType = (float) (num / 2);
+        short halfDoubleType = (short) (num / 2);
     }
 }
