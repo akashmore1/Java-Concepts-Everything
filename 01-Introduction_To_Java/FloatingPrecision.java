@@ -10,5 +10,10 @@ public class FloatingPrecision {
         System.out.println(doubleTypeNumber);
 
         // Let's see precision in float and double value
+        float precisionFloatNo = 7f / 3f; // return 2.3333333
+        double precisionDouble = 7d / 3d; // return 2.3333333333333335
+
+        System.out.println("precisionFloat: " + precisionFloatNo + " precisionDouble " + precisionDouble);
+        // So we can conclude that double is more precise than float
     }
 }
