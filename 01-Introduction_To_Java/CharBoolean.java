@@ -5,5 +5,10 @@ public class CharBoolean {
         // we acn save unicode in char as well
         char firstLetter = 'A';
         System.out.println(firstLetter);
+
+        // Boolean true/false
+        boolean myTrueValue = true;
+        boolean myFalseValue = false;
+        System.out.println(myTrueValue + " " + myFalseValue);
     }
 }
