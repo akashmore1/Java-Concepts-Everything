@@ -4,5 +4,6 @@ public class OperatorsOperand {
         System.out.println(result); // gives 3
         // primitive datatypes are call by value type(Js concerpt of call by value and
         // call by reference)
+        // We have other operators like +, -, *, /, %, ** etc
     }
 }
