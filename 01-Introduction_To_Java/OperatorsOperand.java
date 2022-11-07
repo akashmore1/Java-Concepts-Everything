@@ -5,5 +5,11 @@ public class OperatorsOperand {
         // primitive datatypes are call by value type(Js concerpt of call by value and
         // call by reference)
         // We have other operators like +, -, *, /, %, ** etc
+
+        // Abbreviations:
+        // result + 1 ==> result++
+        // result - 1 ==> result--
+        // result = result + 4 ==> result += 4
+        // etc
     }
 }
