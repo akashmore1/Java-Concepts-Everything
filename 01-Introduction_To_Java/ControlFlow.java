@@ -6,5 +6,9 @@ public class ControlFlow {
         } else {
             System.out.println("Condition false");
         }
+
+        // 👇This is possible as well, just like JS (not recommended)
+        if (number > 4000)
+            System.out.println("Condition true");
     }
 }
