@@ -12,5 +12,15 @@ public class LogicalAndOr {
         if (score2 > 90 && score2 <= 100) {
             System.out.println("Grade A");
         }
+
+        // Logical Or
+        // You are a part of school if you are a student or teacher
+        String profession = "teacher";
+
+        if (profession == "teacher" || profession == "student") {
+            System.out.println("You are part of school");
+        } else {
+            System.out.println("You are not part od school");
+        }
     }
 }
