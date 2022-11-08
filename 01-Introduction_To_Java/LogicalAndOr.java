@@ -22,5 +22,7 @@ public class LogicalAndOr {
         } else {
             System.out.println("You are not part od school");
         }
+
+        // Ternary operator is just like JS
     }
 }
