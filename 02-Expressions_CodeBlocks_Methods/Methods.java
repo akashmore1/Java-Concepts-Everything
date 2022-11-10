@@ -10,6 +10,6 @@ public class Methods {
             int finalScore = score * level;
             return finalScore;
         }
-        return 0;
+        return -1;
     }
 }
