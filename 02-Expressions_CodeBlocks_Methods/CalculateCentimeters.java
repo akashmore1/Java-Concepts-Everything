@@ -1,7 +1,7 @@
 public class CalculateCentimeters {
     // Here we are using method overloading with different number of parameters.
     // Method overloading cannot be used only by changing return type
-
+    // In fact we should not use method overloading, if return type is different
     public static void main(String[] args) {
         System.out.println(calcFeetAndInchesToCentimeters(2, 7));
         System.out.println(calcFeetAndInchesToCentimeters(4));
