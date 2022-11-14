@@ -1,4 +1,8 @@
 public class MethodOverloading {
+    /*
+     * We can use same method name for defining different methods
+     * We just need to pass different type of parameters in each defination
+     */
     public static void main(String[] args) {
         calcAge(2022);
         calcAge(1998, "Akash");
@@ -15,6 +19,10 @@ public class MethodOverloading {
     }
 
     public static int calcAge() {
+        return 2022 - 1998;
+    }
+
+    public static int calcAge(String name) {
         return 2022 - 1998;
     }
 }
