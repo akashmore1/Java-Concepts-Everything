@@ -1,4 +1,5 @@
 public class CalculateCentimeters {
+    // Here we are using method overloading with different number of parameters.
     public static void main(String[] args) {
         System.out.println(calcFeetAndInchesToCentimeters(2, 7));
         System.out.println(calcFeetAndInchesToCentimeters(4));
