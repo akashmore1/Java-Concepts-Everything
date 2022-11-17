@@ -6,6 +6,8 @@ public class HundredPrimeNumbers {
     public static void printNPrimeNumbers(int count) {
         int num = 2;
         int counter = 0;
+        // This a while loop
+        // May require modifications in code.
         while (counter < count) {
             if (isPrimeNumber(num)) {
                 System.out.println(num);
