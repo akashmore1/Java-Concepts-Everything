@@ -17,5 +17,6 @@ public class Input {
         int age = calcAge();
 
         System.out.println(userName + " your age is " + age);
+        scanner.close();
     }
 }
