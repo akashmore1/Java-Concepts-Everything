@@ -20,6 +20,6 @@ public class LearnScanner {
         }
 
         System.out.println("Sum is " + sum);
-        scanner.close()
+        scanner.close();
     }
 }
