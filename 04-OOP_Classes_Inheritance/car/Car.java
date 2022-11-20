@@ -1,3 +1,5 @@
+package car;
+
 public class Car {
 
     // Here these private variables cannot be used outside class
@@ -20,5 +22,21 @@ public class Car {
 
     public void setModel(String model) {
         this.model = model;
+    }
+
+    public int getWheels() {
+        return this.wheels;
+    }
+
+    public int getDoors() {
+        return this.doors;
+    }
+
+    public String getColour() {
+        return this.colour;
+    }
+
+    public String getModel() {
+        return this.model;
     }
 }
