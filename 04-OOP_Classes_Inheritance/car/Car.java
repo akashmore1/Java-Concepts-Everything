@@ -8,6 +8,7 @@ public class Car {
     private int doors;
     private String model;
 
+    // Public variables are available on other classes
     public void setColour(String colour) {
         this.colour = colour;
     }
