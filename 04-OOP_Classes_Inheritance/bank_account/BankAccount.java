@@ -42,8 +42,11 @@ public class BankAccount {
         }
     }
 
-    // public void printAccountDetail(){
-    // System.out.println("Name: " + this.customerName);
-    // System.out.println();
-    // }
+    public void printAccountDetail() {
+        System.out.println("Name: " + this.customerName);
+        System.out.println("Balance: " + this.balance);
+        System.out.println("Email: " + this.email);
+        System.out.println("Account number: " + this.accountNumber);
+        System.out.println("Phone number: " + this.phoneNumber);
+    }
 }
