@@ -13,5 +13,7 @@ public class Main {
         akash.depositFunds(44);
         akash.withdrawFunds(44);
         akash.withdrawFunds(444);
+
+        akash.printAccountDetail();
     }
 }
