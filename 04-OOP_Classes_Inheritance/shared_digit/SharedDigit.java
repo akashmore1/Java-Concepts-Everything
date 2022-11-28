@@ -19,31 +19,31 @@ package shared_digit;
 // NOTE: Do not add a main method to the solution code.
 
 public class SharedDigit {
-    // public static boolean hasSharedDigit(int num1, int num2) {
-    // if (num1 < 10 || num1 > 99 || num2 < 10 || num2 > 99) {
-    // return false;
-    // }
+    public static boolean hasSharedDigit(int num1, int num2) {
+        if (num1 < 10 || num1 > 99 || num2 < 10 || num2 > 99) {
+            return false;
+        }
 
-    // int num11 = num1 % 10;
-    // int num12 = (num1 - num11) / 10;
-    // int num21 = num2 % 10;
-    // int num22 = (num2 - num21) / 10;
+        int num11 = num1 % 10;
+        int num12 = (num1 - num11) / 10;
+        int num21 = num2 % 10;
+        int num22 = (num2 - num21) / 10;
 
-    // if (num11 == num21) {
-    // return true;
-    // }
+        if (num11 == num21) {
+            return true;
+        }
 
-    // if (num11 == num22) {
-    // return true;
-    // }
+        if (num11 == num22) {
+            return true;
+        }
 
-    // if (num12 == num21) {
-    // return true;
-    // }
+        if (num12 == num21) {
+            return true;
+        }
 
-    // if (num12 == num22) {
-    // return true;
-    // }
-    // return false;
-    // }
+        if (num12 == num22) {
+            return true;
+        }
+        return false;
+    }
 }
