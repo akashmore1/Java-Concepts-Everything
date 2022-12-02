@@ -20,4 +20,4 @@ Non static methods are object specific and only be called by objects
 3. And private class means only classes present in same package can access class.
 4. More on access modifiers
 
-![access modifiers](./access-modifiers.jpeg)
+![access modifier](./access-modifiers.jpeg)
