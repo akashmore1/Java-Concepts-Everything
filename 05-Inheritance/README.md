@@ -26,3 +26,11 @@ Non static methods are object specific and only be called by objects
 
 1. Bundling behavior of attributes on single object
 2. The other practice of hiding fields, and some methods, from public access
+
+```
+The default value of
+int, byte, long is 0.
+float, double is 0.0
+byte is false.
+And String is null
+```
