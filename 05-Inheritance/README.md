@@ -29,8 +29,8 @@ Non static methods are object specific and only be called by objects
 
 ```
 The default value of
-int, byte, long is 0.
+int, byte, long is 0
 float, double is 0.0
-byte is false.
+byte is false
 And String is null
 ```
