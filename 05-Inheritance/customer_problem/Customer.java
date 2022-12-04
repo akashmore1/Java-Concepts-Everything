@@ -1,4 +1,3 @@
-
 public class Customer {
     private String name;
     private double creditLimit;
@@ -8,6 +7,10 @@ public class Customer {
         this.name = name;
         this.creditLimit = creditLimit;
         this.emailAddress = email;
+    }
+
+    public Customer() {
+
     }
 
     public String getName() {
