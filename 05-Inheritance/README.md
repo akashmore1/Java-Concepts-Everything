@@ -22,7 +22,7 @@ Non static methods are object specific and only be called by objects
 
 ![access modifier](./access-modifiers.jpeg)
 
-## Encapsulation
+## Encapsulation:
 
 1. Bundling behavior of attributes on single object
 2. The other practice of hiding fields, and some methods, from public access
