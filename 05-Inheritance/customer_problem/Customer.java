@@ -12,7 +12,7 @@ public class Customer {
     }
 
     public Customer() {
-
+        this("Nobody", 0000, "no-mail");
     }
 
     public String getName() {
