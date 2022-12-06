@@ -2,7 +2,6 @@ package customer_problem;
 
 public class Main {
     public static void main(String[] args) {
-        Customer cust = new Customer("Akash", "99999999", "akashmore@gmail.com");
+        Customer customer = new Customer("Akash", 9999, "akash@gmail.com");
     }
-
 }
