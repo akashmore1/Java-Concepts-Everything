@@ -7,5 +7,6 @@ public class Main {
 
         customer.getName();
         customer.getCreditLimit();
+        customer.getEmailAddress();
     }
 }
