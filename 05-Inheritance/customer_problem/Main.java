@@ -6,5 +6,6 @@ public class Main {
         Customer customer = new Customer("Akash", 9999, "akash@gmail.com");
 
         customer.getName();
+        customer.getCreditLimit();
     }
 }
