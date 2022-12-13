@@ -6,7 +6,7 @@ public class Main {
         // Java objects are reference type
         // When we change value of a static variable, its value changes for every
         // object.//
-        // Static variables are related to classes.//
+        // Static variables are related to classes.
         Customer customer = new Customer("Akash", 9999, "akash@gmail.com");
 
         customer.getName();
